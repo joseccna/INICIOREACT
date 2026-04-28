@@ -1,11 +1,14 @@
 import "./App.css";
+import Cabecalho from "./components/cabecalho/Cabecalho";
+import Card from "./components/card/Card";
 
 function App(){
 
   return(
     <>
-      <h1>Diego</h1>
-      <h2>Desenvolvedor de Software</h2>
+     <Cabecalho/>
+     <Card/>
+
 
     </> // Fragmento vazio para evitar a necessidade de uma div extra
   );
